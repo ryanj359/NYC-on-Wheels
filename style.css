@@ -1,0 +1,289 @@
+html, body {
+    background-color: rgb(255, 250, 228);
+    scroll-behavior: smooth;
+}
+
+.h1Home {
+    color: rgb(240, 93, 7);
+    font-family: "Instrument Serif", serif;
+    text-align: center;
+    font-size: 200pt;
+    text-decoration: none;
+}
+
+.h2Home {
+    color: rgb(240, 93, 7);
+    font-family: "Give You Glory", cursive;
+    font-size: 100pt;
+    padding-left: 2%;
+    margin-bottom: -250px;
+}
+
+.h1Reg {
+    color: rgb(240, 93, 7);
+    font-family: "Instrument Serif", serif;
+    text-align: left;
+    font-size: 25pt;
+    text-decoration: none;
+    padding-left: 2%;
+}
+
+.h2Reg {
+    color: rgb(240, 93, 7);
+    font-family: "Give You Glory", cursive;
+    text-align: left;
+    font-size: 50;
+    padding-left: 2%;
+    margin-bottom: -25px;
+}
+
+.pageTitle {
+    color: rgb(240, 93, 7);
+    font-family: "Instrument Serif", serif;
+    text-align: center;
+    font-size: 150pt;
+    text-decoration: none;
+    margin-top: -25px;
+}
+
+.profileTitle {
+    color: rgb(240, 93, 7);
+    font-family: "Instrument Serif", serif;
+    font-size: 70pt;
+    text-decoration: none;
+    padding-left: 2%;
+}
+
+.profileBodyBirria {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(240, 93, 7);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20pt;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 75%);
+  max-width: 90%;
+  text-align: left;
+  width: 90%;
+}
+
+.profileBodyBirria p {
+  margin: 0;
+  padding: 5%;
+}
+
+.profileBodyChilo {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(240, 93, 7);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20pt;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 75%);
+  max-width: 90%;
+  text-align: left;
+  width: 90%;
+}
+
+.profileBodyChilo p {
+  margin: 0;
+  padding: 5%;
+}
+
+.profileBodyDosas {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(240, 93, 7);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20pt;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 75%);
+  max-width: 90%;
+  text-align: left;
+  width: 90%;
+}
+
+.profileBodyDosas p {
+  margin: 0;
+  padding: 5%;
+}
+
+.profileBodyUpN {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(240, 93, 7);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20pt;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 75%);
+  max-width: 90%;
+  text-align: left;
+  width: 90%;
+}
+
+.profileBodyUpN p {
+  margin: 0;
+  padding: 5%;
+}
+
+.profileBodyMoshe {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(240, 93, 7);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20pt;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 75%);
+  max-width: 90%;
+  text-align: left;
+  width: 90%;
+}
+
+.profileBodyMoshe p {
+  margin: 0;
+  padding: 5%;
+}
+
+.aboutBody {
+  color: rgb(240, 93, 7);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20pt;
+  text-decoration: none;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+
+.prof-container {
+  margin-bottom: 50px;
+}
+
+.img-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
+.img-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  opacity: 40%;
+}
+
+.img-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 8px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.img-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  aspect-ratio: 4 / 3; /* Optional but helps prevent layout shifting */
+  border-radius: 6px;
+}
+
+.footer {
+    background-color: rgb(240, 93, 7);
+}
+
+.footerType {
+    color: rgb(255, 250, 228);
+    font-family: "Instrument Serif", serif;
+    text-align: center;
+    font-size: 25pt;
+    text-decoration: none;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(240, 93, 7);
+    list-style-type: none;
+  }
+
+ul a {
+    color: rgb(255, 250, 228);
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+ul a:hover {
+    text-decoration: underline;
+    color: rgb(255, 250, 228);
+  }
+
+  ul.topNav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 250, 228);
+    list-style-type: none;
+    margin-top: 0px;
+    margin-bottom: 300px;
+    padding: 0;
+  }
+  
+  .topNav li {
+    padding: 10px;
+  }
+  
+  .topNav a {
+    color: rgb(240, 93, 7);
+    font-family: "Instrument Serif", serif;
+    font-size: 25pt;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  
+  .topNav a:hover {
+    text-decoration: underline;
+    color: rgb(240, 93, 7);
+  }
+
+.instrument-serif-regular {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .instrument-serif-regular-italic {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .give-you-glory-regular {
+    font-family: "Give You Glory", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  #map {
+    margin: 20px auto;
+    margin-top: -100px;
+    margin-bottom: 100px;
+    height: 700px;
+    width: 1000px;
+  }
+  
