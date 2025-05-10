@@ -1,185 +1,108 @@
 html, body {
-    background-color: rgb(255, 250, 228);
-    scroll-behavior: smooth;
+  background-color: rgb(255, 250, 228);
+  scroll-behavior: smooth;
+  word-break: break-word;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .h1Home {
-    color: rgb(240, 93, 7);
-    font-family: "Instrument Serif", serif;
-    text-align: center;
-    font-size: 200pt;
-    text-decoration: none;
+  color: rgb(240, 93, 7);
+  font-family: "Instrument Serif", serif;
+  text-align: center;
+  font-size: 12vw;
+  text-decoration: none;
 }
 
 .h2Home {
-    color: rgb(240, 93, 7);
-    font-family: "Give You Glory", cursive;
-    font-size: 100pt;
-    padding-left: 2%;
-    margin-bottom: -250px;
+  color: rgb(240, 93, 7);
+  font-family: "Give You Glory", cursive;
+  font-size: 6vw;
+  padding-left: 2%;
+  margin-bottom: -10vw;
 }
 
 .h1Reg {
-    color: rgb(240, 93, 7);
-    font-family: "Instrument Serif", serif;
-    text-align: left;
-    font-size: 25pt;
-    text-decoration: none;
-    padding-left: 2%;
+  color: rgb(240, 93, 7);
+  font-family: "Instrument Serif", serif;
+  text-align: left;
+  font-size: 2em;
+  padding-left: 2%;
 }
 
 .h2Reg {
-    color: rgb(240, 93, 7);
-    font-family: "Give You Glory", cursive;
-    text-align: left;
-    font-size: 50;
-    padding-left: 2%;
-    margin-bottom: -25px;
+  color: rgb(240, 93, 7);
+  font-family: "Give You Glory", cursive;
+  text-align: left;
+  font-size: 2.5em;
+  padding-left: 2%;
+  margin-bottom: -25px;
 }
 
 .pageTitle {
-    color: rgb(240, 93, 7);
-    font-family: "Instrument Serif", serif;
-    text-align: center;
-    font-size: 150pt;
-    text-decoration: none;
-    margin-top: -25px;
+  color: rgb(240, 93, 7);
+  font-family: "Instrument Serif", serif;
+  text-align: center;
+  font-size: 10vw;
+  margin-top: -25px;
 }
 
 .profileTitle {
-    color: rgb(240, 93, 7);
-    font-family: "Instrument Serif", serif;
-    font-size: 70pt;
-    text-decoration: none;
-    padding-left: 2%;
+  color: rgb(240, 93, 7);
+  font-family: "Instrument Serif", serif;
+  font-size: 4vw;
+  padding-left: 5%;
 }
 
-.profileBodyBirria {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.aboutBody,
+.learnedBody,
+.profileBody {
   color: rgb(240, 93, 7);
   font-family: 'Courier New', Courier, monospace;
-  font-size: 20pt;
-  text-decoration: none;
-  background-color: rgba(255, 255, 255, 75%);
-  max-width: 90%;
-  text-align: left;
-  width: 90%;
-}
-
-.profileBodyBirria p {
-  margin: 0;
-  padding: 5%;
-}
-
-.profileBodyChilo {
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: rgb(240, 93, 7);
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 20pt;
-  text-decoration: none;
-  background-color: rgba(255, 255, 255, 75%);
-  max-width: 90%;
-  text-align: left;
-  width: 90%;
-}
-
-.profileBodyChilo p {
-  margin: 0;
-  padding: 5%;
-}
-
-.profileBodyDosas {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: rgb(240, 93, 7);
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 20pt;
-  text-decoration: none;
-  background-color: rgba(255, 255, 255, 75%);
-  max-width: 90%;
-  text-align: left;
-  width: 90%;
-}
-
-.profileBodyDosas p {
-  margin: 0;
-  padding: 5%;
-}
-
-.profileBodyUpN {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: rgb(240, 93, 7);
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 20pt;
-  text-decoration: none;
-  background-color: rgba(255, 255, 255, 75%);
-  max-width: 90%;
-  text-align: left;
-  width: 90%;
-}
-
-.profileBodyUpN p {
-  margin: 0;
-  padding: 5%;
-}
-
-.profileBodyMoshe {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: rgb(240, 93, 7);
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 20pt;
-  text-decoration: none;
-  background-color: rgba(255, 255, 255, 75%);
-  max-width: 90%;
-  text-align: left;
-  width: 90%;
-}
-
-.profileBodyMoshe p {
-  margin: 0;
-  padding: 5%;
-}
-
-.aboutBody {
-  color: rgb(240, 93, 7);
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 20pt;
-  text-decoration: none;
-  padding-left: 10%;
-  padding-right: 10%;
+  font-size: 1.25em;
   text-align: center;
+  padding: 5% 10%;
 }
 
-.prof-container {
-  margin-bottom: 50px;
+.learnedBody {
+  padding: 0% 20%;
 }
 
-.img-container {
-  position: relative;
-  display: inline-block;
-  width: 100%;
-  height: auto;
+.profileBody {
+  text-align: left;
+  padding: 5% 10%;
 }
 
-.img-container img {
-  width: 100%;
-  height: auto;
+.wrapper-menu {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.menuButton {
+  margin-left: auto;
+  margin-right: 3%;
+  color: rgb(240, 93, 7);
+  font-family: "Instrument Serif", serif;
+  font-size: 1.25em;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.center-img {
   display: block;
-  opacity: 40%;
+  margin: 0 auto;
 }
 
 .img-grid {
@@ -194,96 +117,175 @@ html, body {
 .img-grid img {
   width: 100%;
   height: auto;
-  display: block;
   object-fit: cover;
-  aspect-ratio: 4 / 3; /* Optional but helps prevent layout shifting */
+  aspect-ratio: 4 / 3;
   border-radius: 6px;
 }
 
-.footer {
-    background-color: rgb(240, 93, 7);
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(240, 93, 7);
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  flex-direction: row;
+}
+
+ul li {
+  margin: 10px;
+}
+
+ul a {
+  color: rgb(255, 250, 228);
+  text-decoration: none;
+  font-size: 1em;
+}
+
+ul a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: rgb(240, 93, 7);
+  padding: 10px 0;
 }
 
 .footerType {
-    color: rgb(255, 250, 228);
-    font-family: "Instrument Serif", serif;
-    text-align: center;
-    font-size: 25pt;
-    text-decoration: none;
-    margin-left: 15%;
-    margin-right: 15%;
+  font-family: "Instrument Serif", serif;
+  font-size: 1.5em;
+  text-align: center;
 }
 
-ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: rgb(240, 93, 7);
-    list-style-type: none;
-  }
+ul.topNav {
+  background-color: rgb(255, 250, 228);
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
 
-ul a {
-    color: rgb(255, 250, 228);
-    text-decoration: none;
-    font-size: 18px;
-  }
+.topNav li {
+  padding: 10px;
+}
 
-ul a:hover {
-    text-decoration: underline;
-    color: rgb(255, 250, 228);
-  }
+.topNav a {
+  color: rgb(240, 93, 7);
+  font-family: "Instrument Serif", serif;
+  font-size: 1.5em;
+  white-space: nowrap;
+}
 
-  ul.topNav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: rgb(255, 250, 228);
-    list-style-type: none;
-    margin-top: 0px;
-    margin-bottom: 300px;
-    padding: 0;
-  }
-  
-  .topNav li {
-    padding: 10px;
-  }
-  
-  .topNav a {
-    color: rgb(240, 93, 7);
-    font-family: "Instrument Serif", serif;
-    font-size: 25pt;
-    text-decoration: none;
-    white-space: nowrap;
-  }
-  
-  .topNav a:hover {
-    text-decoration: underline;
-    color: rgb(240, 93, 7);
-  }
+.topNav a:hover {
+  text-decoration: underline;
+}
+
+#map {
+  margin: 0 auto;
+  height: 60vh;
+  width: 90%;
+  max-width: 1000px;
+}
+
+#lightbox {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  justify-content: center;
+  align-items: center;
+}
+
+#lightbox img {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 3rem;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+  padding: 10px;
+}
+
+.arrow.left {
+  left: 20px;
+}
+
+.arrow.right {
+  right: 20px;
+}
 
 .instrument-serif-regular {
-    font-family: "Instrument Serif", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .instrument-serif-regular-italic {
-    font-family: "Instrument Serif", serif;
-    font-weight: 400;
-    font-style: italic;
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.instrument-serif-regular-italic {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.give-you-glory-regular {
+  font-family: "Give You Glory", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media (max-width: 768px) {
+  .h1Home {
+    font-size: 14vw;
   }
 
-  .give-you-glory-regular {
-    font-family: "Give You Glory", cursive;
-    font-weight: 400;
-    font-style: normal;
+  .h2Home {
+    font-size: 8vw;
+    margin-bottom: -8vw;
   }
 
-  #map {
-    margin: 20px auto;
-    margin-top: -100px;
-    margin-bottom: 100px;
-    height: 700px;
-    width: 1000px;
+  .pageTitle {
+    font-size: 12vw;
   }
-  
+
+  .footerType,
+  .topNav a {
+    font-size: 1.25em;
+  }
+
+  .aboutBody,
+  .learnedBody,
+  .profileBody {
+    font-size: 1em;
+    padding: 5%;
+  }
+
+  .menuButton {
+    font-size: 1em;
+  }
+
+  .arrow {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  ul li {
+    margin: 5px 0;
+  }
+}

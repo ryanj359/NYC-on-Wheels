@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Page Title</title>
+    <title>NYC On Wheels</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Give+You+Glory&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
@@ -18,21 +18,36 @@
 </head>
 <body>
 
-    <h2 class="h2Reg"> New York City </h2>
+    <div class="page-wrapper">
+        <h2 class="h2Reg"> New York City </h2>
     
-    <h1> <a href="index.html" class="h1Reg" style="text-decoration: none;"> On Wheels </a> </h1>
+        <h1> <a href="index.html" class="h1Reg" style="text-decoration: none;"> On Wheels </a> </h1>
 
-    <p class="pageTitle"> Map </p>
+        <div class="wrapper-menu">
+            <a href="#menu-bottom" class="menuButton"> Menu </a>
+        </div>
 
-    <div id="map"></div>
+        <p id="back2top" class="pageTitle"> Map </p>
 
-    <footer>
+        <div id="map"></div>
+
+        <br>
+        <br>
+
+        <div class="wrapper-menu">
+            <a href="#back2top" class="menuButton"> Back to Top </a>
+        </div>
+    </div>
+
+    <footer id="menu-bottom">
         <ul>
             <li><a href="about.html" class="footerType"> About </a></li>
             <li><a href="map.html" class="footerType" style="text-decoration: underline;"> Map </a></li>
             <li><a href="profiles.html" class="footerType"> Profiles </a></li>
+            <li><a href="learned.html" class="footerType"> What I've Learned </a></li>
             <li><a href="gallery.html" class="footerType"> Gallery </a></li>
             <li><a href="index.html" class="footerType"> Home </a></li>
+            <li><a href="sources.html" class="footerType"> Sources </a></li>
         </ul>
     </footer>
     <script src="map.js"></script>
